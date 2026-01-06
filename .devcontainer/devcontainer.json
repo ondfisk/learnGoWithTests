@@ -1,0 +1,28 @@
+{
+	"name": "Go",
+	"dockerFile": "Dockerfile",
+	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+	"features": {
+		"ghcr.io/devcontainers/features/docker-outside-of-docker:1": {
+			"moby": false
+		}
+	},
+	"customizations": {
+		"vscode": {
+			"settings": {
+				"editor.trimAutoWhitespace": true,
+				"files.autoSave": "afterDelay",
+				"files.trimTrailingWhitespace": true,
+				"files.trimFinalNewlines": true,
+				"files.trimTrailingWhitespaceInRegexAndStrings": true,
+				"github.copilot.enable": {
+					"*": false
+				}
+			},
+			"extensions": [
+				"golang.go",
+				"google.geminicodeassist"
+			]
+		}
+	}
+}

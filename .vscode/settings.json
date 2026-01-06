@@ -1,0 +1,10 @@
+{
+    "editor.trimAutoWhitespace": true,
+    "files.autoSave": "afterDelay",
+    "files.trimTrailingWhitespace": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespaceInRegexAndStrings": true,
+    "github.copilot.enable": {
+        "*": false
+    }
+}
