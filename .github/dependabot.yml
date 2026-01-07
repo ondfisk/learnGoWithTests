@@ -7,7 +7,7 @@ updates:
      interval: weekly
 
  - package-ecosystem: docker
-   directory: /.devcontainers
+   directory: /.devcontainer
    schedule:
      interval: weekly
 
