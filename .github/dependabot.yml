@@ -1,22 +1,22 @@
 ---
 version: 2
 updates:
- - package-ecosystem: devcontainers
-   directory: /
-   schedule:
-     interval: weekly
+  - package-ecosystem: devcontainers
+    directory: /
+    schedule:
+      interval: weekly
 
- - package-ecosystem: docker
-   directory: /.devcontainer
-   schedule:
-     interval: weekly
+  - package-ecosystem: docker
+    directory: /.devcontainer
+    schedule:
+      interval: weekly
 
- - package-ecosystem: github-actions
-   directory: /
-   schedule:
-     interval: weekly
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
 
- - package-ecosystem: gomod
-   directory: /
-   schedule:
-     interval: weekly
+  - package-ecosystem: gomod
+    directory: /
+    schedule:
+      interval: weekly

@@ -21,7 +21,9 @@
 			},
 			"extensions": [
 				"golang.go",
-				"google.geminicodeassist"
+				"google.geminicodeassist",
+				"redhat.vscode-yaml"
+"
 			]
 		}
 	}
